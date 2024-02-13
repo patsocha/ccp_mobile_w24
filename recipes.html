@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="css/reset.css">
     <link rel = "stylesheet" href="css/style.css">
     <title>Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
-        body {
+        .header {
+                font-family: 'Jost', sans-serif;
+                font-weight: 700; /* Bold */
+            }
+            
+        .paragraph {
+            font-family: 'Jost', sans-serif;
+            font-weight: 400; /* Regular */
+        }
+
+        .subheader { 
+            font-family: 'Jost', sans-serif;
+            font-weight: 550; /* Regular */
+
+        }
+
+        .container {
+          font-family: 'Jost', sans-serif;
+      
+        }
+        .body {
           margin: 0; 
           padding: 0; 
         
@@ -59,9 +82,9 @@
     </header>
         
     <main class ="recipes" id="main">
-        <h1>Recipes</h1>
+        <h1 class = "header">Recipes</h1>
         <div>
-            <h2>Chicken Curry</h2>
+            <h2 class="subheader" >Chicken Curry</h2>
             <img src="images/JapaneseChickenCurry.jpg" width = "400" alt="Japanese Chicken Curry">
             <h3>Origin: Japan</h3>
             <h3>Source: Family Recipe</h3>

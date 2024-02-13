@@ -1,3 +1,8 @@
+/* // <uniquifier>: Use a uniquifier for the class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+
+
 .active {
   text-decoration: underline;
 }
@@ -12,6 +17,8 @@
   animation-fill-mode: both;
   animation-play-state: running;
 }
+
+
 
 @media (prefers-reduced-motion: reduce) {
   .animation {
@@ -64,6 +71,7 @@ body, ul {
 }
 
 .navbar ul {
+  font-family: 'Jost';
   list-style-type: none; 
   text-align: center;
   margin: 0;
